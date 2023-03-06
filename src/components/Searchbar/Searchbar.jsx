@@ -48,7 +48,6 @@ class Searchbar extends Component {
             </SearchbarHeader>    
         )
     }
-    
 }
 
 export default Searchbar;

@@ -1,5 +1,6 @@
-import { LoaderWrapper, Spinner } from './Loader.styled';
+import { LoaderWrapper } from './Loader.styled';
 import {RotatingLines} from 'react-loader-spinner';
+
 const Loader = () => {
     return (
         <LoaderWrapper>
@@ -10,8 +11,7 @@ const Loader = () => {
                 width="96"
                 visible={true}
                 />
-        </LoaderWrapper>    
-            
+        </LoaderWrapper>        
     );
 }
 
