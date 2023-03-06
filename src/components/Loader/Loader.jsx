@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { LoaderWrapper, Spinner } from './Loader.styled';
 import {RotatingLines} from 'react-loader-spinner';
 const Loader = () => {
